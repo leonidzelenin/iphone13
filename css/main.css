@@ -1,0 +1,480 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #1e1e1e;
+}
+
+.page-wrapper {
+  margin: auto;
+  width: 1512px;
+  background: #121212;
+}
+
+.opening {
+  height: 905px;
+}
+
+.opening h1 {
+  padding-top: 92px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 171px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.opening p {
+  margin-bottom: 62px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #f5f5f5;
+}
+
+.opening img {
+  display: block;
+  margin: auto;
+}
+
+.iphone-13-pro {
+  height: 963px;
+  background: #ffffff;
+}
+
+.iphone-13-pro h2 {
+  padding-top: 245px;
+  margin: auto;
+  display: block;
+  width: 765px;
+  height: 166px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 166px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #262525;
+}
+
+.iphone-13-pro p {
+  margin: auto;
+  display: block;
+  width: 967px;
+  height: 210px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 157.4%;
+  text-align: center;
+  color: #262525;
+}
+
+.iphone-13-pro a {
+  margin: auto;
+  margin-bottom: 6px;
+  display: block;
+  width: 241px;
+  height: 36px;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #262525;
+  text-decoration: none;
+}
+
+.iphone-13-pro a::after {
+  margin: auto;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-image: url(../icons/arrow-down.svg);
+}
+
+.body-demo {
+  position: relative;
+  height: 567px;
+  background: #1e1e1e;
+}
+
+.body-demo-text {
+  position: absolute;
+  bottom: 97px;
+  left: 125px;
+  margin: auto;
+  display: block;
+  width: 1261px;
+  height: 624.59px;
+  background-image: url(../images/iPhone_13_Pro_Black.png);
+}
+
+.body-demo-text h2 {
+  padding-top: 122px;
+  padding-bottom: 117px;
+  margin: auto;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.body-demo-text h3 {
+  padding-bottom: 42px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 157.4%;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.body-demo-text p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.choose-your-iphone {
+  background: #ffffff;
+}
+
+.choose-your-iphone-wrapper {
+  display: flex;
+  width: 1264px;
+  margin-left: 161px;
+  margin-bottom: 33px;
+}
+
+.choose-your-iphone h2 {
+  margin-bottom: 57px;
+  padding-top: 78px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 38px;
+  align-items: center;
+  text-align: center;
+  color: #292929;
+}
+
+.buy-ipone-13 {
+  margin-right: 24px;
+}
+
+.purchase-block {
+  width: 384px;
+  height: 237px;
+  background: #1b1b1b;
+  border-radius: 0px 0px 32px 32px;
+}
+
+.purchase-block h4 {
+  padding-top: 24px;
+  margin-left: 24px;
+  margin-bottom: 5px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #ffffff;
+}
+
+.color {
+  margin-bottom: 20px;
+  margin-left: 24px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.price {
+  margin-bottom: 16px;
+  margin-left: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #f1f8ff;
+}
+
+.add-btn {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-left: 24px;
+  width: 336px;
+  height: 66px;
+  background: #ffffff;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-menu {
+  margin-left: 729px;
+  padding-bottom: 61px;
+  width: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pro-motion {
+  position: relative;
+  height: 768.74px;
+  background: #1b1b1b;
+}
+
+.pro-motion h2 {
+  padding-top: 80px;
+  margin-bottom: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pro-motion p {
+  margin: auto;
+  margin-bottom: 55px;
+  width: 607px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.pro-motion img {
+  display: block;
+  margin: auto;
+}
+
+.pro-motion::after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 726px;
+  width: 1512px;
+  height: 109.97px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/wave.jpg);
+}
+
+.purchase {
+  padding-top: 130px;
+  display: flex;
+  background: #ffffff;
+}
+
+.purchase-img {
+  margin-bottom: 100px;
+  margin-left: 157px;
+  display: block;
+  width: 674px;
+  height: 320px;
+}
+
+.purchase-area {
+  margin-left: 80px;
+  padding-top: 100px;
+  display: block;
+  width: 419px;
+  height: 145px;
+}
+
+.purchase-text {
+  margin-bottom: 32px;
+  width: 419px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #727272;
+}
+
+.purchase-window {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 8px 24px;
+  gap: 10px;
+  width: 419px;
+  height: 45px;
+  border: 1.5px solid #c8c8c8;
+  border-radius: 32px;
+}
+
+.purchase-window-text {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #545454;
+}
+
+.purchase-window-btn {
+  width: 151px;
+  height: 49px;
+  background: #262525;
+  border-radius: 32px;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  height: 343px;
+  background: #1d1c1c;
+}
+
+.copyright {
+  width: 320px;
+  height: 164px;
+  margin-right: 401px;
+  margin-left: 105px;
+  padding-top: 84px;
+}
+
+.website {
+  margin-bottom: 14px;
+  font-family: "Raleway";
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.copyright p {
+  margin-bottom: 32px;
+  width: 320px;
+  height: 63px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #c8c8c8;
+}
+
+.socials {
+  display: flex;
+  width: 192px;
+  height: 32px;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgb(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.site-map {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 85px;
+  width: 650px;
+  height: 207px;
+  left: 826px;
+  top: 68px;
+}
+
+.company-support {
+  margin-top: 68px;
+}
+
+.company-support h3 {
+  margin-bottom: 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #efeeef;
+}
+
+li {
+  margin-bottom: 12px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: #c8c8c8;
+}
+
+.mailto {
+  width: 185px;
+  height: 25px;
+  background: #545454;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.mailto-text {
+  margin-right: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #c8c8c8;
+}
